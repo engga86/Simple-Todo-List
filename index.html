@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todays To-Do List</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/lib/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div id="clock">
+        <span id="info"><i class="fas fa-info-circle"></i></span>
+        <span class="info-0">Current Time: </span>
+        <span id="showTime">Time</span>
+      </div>
+      <div id="date">
+        <span class="info-0">Today's Date: </span>
+        <span id="showDate">Date</span>
+      </div>
+
+      <h1>Todays To-Do List <i class="fas fa-plus"></i></h1>
+      <input type="text" placeholder="Add New Todo" maxlength="50">
+
+      <ul>
+
+      </ul>
+    </div>
+
+    <div class="info-container">
+      <p class="info-1">Enter new list in the 'Add New Todo'</p>
+      <p class="info-1">Click on the list to cross out the completed list</p>
+      <p class="info-1">Click on the minus circle to delete</p>
+      <p class="info-1">The time when the list has added shows on the right</p>
+
+    </div>
+
+    <script src="assets/js/today.js" charset="utf-8"></script>
+  </body>
+</html>

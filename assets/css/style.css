@@ -1,0 +1,142 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+  background: #abdeff;
+  color: #32414a;
+  margin: 0;
+  padding: 10px 20px;
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+li{
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-size: 20px;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+li:hover .delete-list{
+  width: 40px;
+  opacity: 1.0;
+}
+
+
+input{
+  font-size: 18px;
+  background: #f7f7f7;
+  color: #32414a;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+  border: 3px solid rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+
+input:focus {
+  background: #fff;
+  border: 3px solid #89b0c9;
+  outline: none;
+}
+
+
+.container{
+  width: 700px;
+  margin: 100px auto;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+
+}
+
+.info-container{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.info-0{
+  font-size: 20px;
+  color: #3d44ff;
+}
+
+.info-1{
+  text-align: center;
+  font-size: 16px;
+  color: #3b1a1a;
+  display: none;
+}
+
+#info{
+  float: left;
+  color: white;
+}
+
+#clock, #date{
+  text-align: center;
+}
+
+
+#showTime{
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#showDate{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.check-completed{
+  margin-right: 10px;
+  text-align: center;
+  color: green;
+  width: 0px;
+  display: inline-block;
+}
+
+.completed{
+  color: grey;
+  text-decoration: line-through;
+}
+
+.delete-list{
+  float: right;
+  background: #e74c3c;
+  height: 40px;
+  text-align: center;
+  color: white;
+  width: 0px;
+  display: inline-block;
+  transition: 0.2s ease;
+  opacity: 0;
+}
+
+#input-time{
+  padding-right: 10px;
+  float: right;
+  font-size: 16px;
+}
+
+.fa-plus{
+  padding: 5px;
+  float: right;
+  transition: 1s;
+}
+
+.fa-plus:hover{
+  transform: rotate(180deg);
+}
